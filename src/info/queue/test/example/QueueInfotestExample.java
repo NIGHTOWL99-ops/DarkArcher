@@ -25,7 +25,7 @@ public class QueueInfotestExample {
 		
 		q.add("ert");
 		
-		System.out.println(q.element());
+		//System.out.println(q.element());
 		
 		System.out.println(q);
 		
