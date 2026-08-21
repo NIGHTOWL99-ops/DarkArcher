@@ -37,14 +37,11 @@ public class FunctionalInterfaceTask {
 		
 		testObj.startCalculation();
 		
-		// Lambda way of implementation
-		
-		//In-Built method , Hence Lambda goes well with Consumer 
+		 
 		Consumer<Integer> conObj=( x)->x.byteValue();
 		
 		
-		// InBuilt Functional Interface
-		// Target method for Lambda
+		
 		conObj.accept(9);
 		System.out.println("Consumer type object.........."+conObj); //Internal method Implementation
 		
@@ -53,22 +50,16 @@ public class FunctionalInterfaceTask {
 		
 		System.out.println("Calculation Completed .............");
 		
-		/*
-		 * 
-		 * 
-		 * 
-		 * 
-		 * Supplier and Predicate Examples
-		 */
 		
-		Predicate<Integer> predObj=(x)->x!=0;  //Lambda :: Object Type
+		
+		Predicate<Integer> predObj=(x)->x!=0;  
 		
 		System.out.println("Predicate Check......."+predObj.test(9));
 		System.out.println("Predicate Object Type :: "+predObj.getClass());
 		
 		
 		
-		//No Arguments Needed , Hence not applicable for Supplier
+		
 		
 		Supplier<Integer> supObj=()->Math.subtractExact(19, 1);
 		System.out.println("supplier get method ................"+supObj.get());

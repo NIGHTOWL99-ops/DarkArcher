@@ -13,7 +13,7 @@ public class PeekMethodTest {
 		ad.add("eee");
 		
 		
-		System.out.println(ad);
+		//System.out.println(ad);
 		
 		ad.addFirst("it");
 		ad.addLast("mechanical");
@@ -22,7 +22,7 @@ public class PeekMethodTest {
 		ad.push("goc");
 		ad.addFirst("it-2");
 		
-		System.out.println(ad);
+		System.out.println(ad);//it-2,goc,it,etc,cse,eee,mechanical,elc,
 		  
 				  System.out.println(ad.peek());
 			  
