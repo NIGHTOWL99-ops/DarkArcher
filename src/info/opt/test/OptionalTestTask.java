@@ -21,6 +21,9 @@ public class OptionalTestTask {
 		System.out.println(opt.ofNullable(13).get());
 		
 		System.out.println(opt.filter(x->x!=0));
+		
+		
+		System.out.println(opt.filter(x->x==0));
 		 
 	}
 
