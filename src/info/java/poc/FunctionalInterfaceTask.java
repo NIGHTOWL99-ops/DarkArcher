@@ -42,7 +42,7 @@ public class FunctionalInterfaceTask {
 		
 		
 		
-		conObj.accept(9);
+		conObj.accept(90);
 		System.out.println("Consumer type object.........."+conObj); //Internal method Implementation
 		
 		
@@ -54,7 +54,7 @@ public class FunctionalInterfaceTask {
 		
 		Predicate<Integer> predObj=(x)->x!=0;  
 		
-		System.out.println("Predicate Check......."+predObj.test(9));
+		System.out.println("Predicate Check......."+predObj.test(90));
 		System.out.println("Predicate Object Type :: "+predObj.getClass());
 		
 		
