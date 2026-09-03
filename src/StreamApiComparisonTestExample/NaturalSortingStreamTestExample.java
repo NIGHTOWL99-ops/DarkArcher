@@ -9,10 +9,10 @@ public class NaturalSortingStreamTestExample {
 
 
 		List<String> listBids= List.of("xyz", "abcd", "abcd", "okay");
-		List<String> listHNIIpo=listBids.stream().sorted().toList();
+		 listBids=listBids.stream().sorted().toList();
 		
 		
-		for(String ipo:listHNIIpo) {
+		for(String ipo:listBids) {
 			
 			System.out.println(ipo);
 		}
