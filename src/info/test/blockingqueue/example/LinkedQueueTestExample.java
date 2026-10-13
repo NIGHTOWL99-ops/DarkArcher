@@ -12,9 +12,7 @@ public class LinkedQueueTestExample {
 		List<String> list=new ArrayList<String>();
 		
 		list.add("a");
-		
-		
-		
+				
 		
 		BlockingQueue<String> bq=new LinkedBlockingDeque<String>();
 		

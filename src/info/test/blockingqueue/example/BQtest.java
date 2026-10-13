@@ -35,6 +35,7 @@ public class BQtest {
 				for(int i=0;i<blockingQueue.size();i++) {
 					
 					//Integer value =blockingQueue.take();
+					Thread.sleep(2000);
 					Integer value2 =blockingQueue.take();
 					//Integer value3 =blockingQueue.take();
 					System.out.println("Consumed..........."+value2);

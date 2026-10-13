@@ -10,7 +10,7 @@ public class TestStringInternMethodExample {
         String str2=str1.intern();//Already inside the pool,same content
         
         
-        String str3=new String("wwe").intern();//Moves from heap area to string pool area
+        String str3=new String("wwe").intern();//Moves from heap area to string pool 
         
         
         System.out.println(str3==str1);//false
